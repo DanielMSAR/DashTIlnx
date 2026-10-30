@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Servidor Principal",
+        "host": "172.16.1.1",
+        "status": "ONLINE",
+        "latency": "46 ms",
+        "is_up": true
+    },
+    {
+        "name": "Servidor Espejo",
+        "host": "172.16.1.7",
+        "status": "ONLINE",
+        "latency": "40 ms",
+        "is_up": true
+    },
+    {
+        "name": "Servidor Backup",
+        "host": "172.16.1.5",
+        "status": "ONLINE",
+        "latency": "34 ms",
+        "is_up": true
+    },
+    {
+        "name": "Salida a Internet",
+        "host": "172.16.1.254",
+        "status": "ONLINE",
+        "latency": "33 ms",
+        "is_up": true
+    },
+    {
+        "name": "Servidor Producción primaria",
+        "host": "172.16.1.200",
+        "status": "ONLINE",
+        "latency": "35 ms",
+        "is_up": true
+    },
+    {
+        "name": "Google",
+        "host": "www.google.com",
+        "status": "ONLINE",
+        "latency": "63 ms",
+        "is_up": true
+    },
+    {
+        "name": "Cloudflare",
+        "host": "1.1.1.1",
+        "status": "ONLINE",
+        "latency": "51 ms",
+        "is_up": true
+    },
+    {
+        "name": "Reloj Cab. 25",
+        "host": "10.200.1.251",
+        "port": 4370,
+        "check_type": "tcp",
+        "status": "PENDING",
+        "latency": "N/A",
+        "is_up": false
+    },
+    {
+        "name": "Reloj Cab. SV",
+        "host": "10.200.2.251",
+        "port": 4370,
+        "check_type": "tcp",
+        "status": "PENDING",
+        "latency": "N/A",
+        "is_up": false
+    },
+    {
+        "name": "Reloj Fab. SV",
+        "host": "10.200.3.251",
+        "port": 4370,
+        "check_type": "tcp",
+        "status": "PENDING",
+        "latency": "N/A",
+        "is_up": false
+    },
+    {
+        "name": "Reloj Pic. Belgrano",
+        "host": "10.200.4.251",
+        "port": 4370,
+        "check_type": "tcp",
+        "status": "PENDING",
+        "latency": "N/A",
+        "is_up": false
+    }
+]
